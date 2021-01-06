@@ -1,6 +1,6 @@
 # Analysis of transposable elements using dnaPipeTE
 
-[dnaPipeTE](https://github.com/clemgoub/dnaPipeTE) is a *de novo* repeat finder and annotator. It brings together tools like Trinity, Jellyfish and Repeatmasker, to detect and quantify transposable elements in next-gen sequencing data. The inputs are gzipped fastq files and you can control how many reads or what fraction of the genome you sample. When installed on Cannon it requires several modeles according to the sbatch script below.
+[dnaPipeTE](https://github.com/clemgoub/dnaPipeTE) is a *de novo* repeat finder and annotator. It brings together tools like Trinity, Jellyfish and Repeatmasker, to detect and quantify transposable elements in next-gen sequencing data. The inputs are gzipped fastq files and you can control how many reads or what fraction of the genome you sample. When installed on Cannon it requires several modeles according to the sbatch script below. It creates nice graphics that can then be edited in Illustrator (see below).
 
 		
 		#!/bin/bash 
@@ -23,3 +23,8 @@
 		python3 dnaPipeTE.py -input /n/holylfs/LABS/edwards_lab/sedwards/moa/mapping/mapped/bowtie2_R_aligned.gz /
 		-output /n/holylfs/LABS/edwards_lab/sedwards/moa/moa7b_out -genome_size 1000000000  -genome_coverage 0.2 /
 		-sample_number 3 -cpu 16
+		
+
+![Pie chart of emu transposable elements](../images/TEs_piechart_emu.png)
+
+
