@@ -25,4 +25,4 @@
 		-sample_number 3 -cpu 16
 		
 
-![](https://github.com/svedwards/genome_analysis/blob/main/images/TEs_piechart_emu.pdf)
+![](https://www.dropbox.com/s/2fzwtwyn9qe1581/TEs_piechart_emu.pdf?dl=0)
