@@ -24,4 +24,7 @@
 		-output /n/holylfs/LABS/edwards_lab/sedwards/moa/moa7b_out -genome_size 1000000000  -genome_coverage 0.2 /
 		-sample_number 3 -cpu 16
 		
-![](https://github.com/svedwards/genome_analysis/blob/main/images/TEs_piechart_emu.pdf)
+
+![](https://github.com/svedwards/genome_analysis/blob/main/images/TEs_piechart_emu.png)
+
+
