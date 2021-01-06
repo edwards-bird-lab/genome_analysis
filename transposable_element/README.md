@@ -23,3 +23,6 @@
 		python3 dnaPipeTE.py -input /n/holylfs/LABS/edwards_lab/sedwards/moa/mapping/mapped/bowtie2_R_aligned.gz /
 		-output /n/holylfs/LABS/edwards_lab/sedwards/moa/moa7b_out -genome_size 1000000000  -genome_coverage 0.2 /
 		-sample_number 3 -cpu 16
+		
+
+![Pie chart of emu TEs](https://github.com/svedwards/genome_analysis/blob/main/images/TEs_piechart_emu.pdf "Emu pie chart")
