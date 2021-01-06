@@ -25,6 +25,6 @@
 		-sample_number 3 -cpu 16
 		
 
-![Pie chart of emu transposable elements](../../images/TEs_piechart_emu.png)
+![Pie chart of emu transposable elements](../images/TEs_piechart_emu.png)
 
 
